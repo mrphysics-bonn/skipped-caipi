@@ -149,5 +149,10 @@ def plot_skipped_caipi(Ry, Rz, Dz, S, ax=None, color=None, repetitions=0, bAllSh
     ax.set_xticks([])
     ax.set_yticks([])
     ax.invert_yaxis()
+    if Dz<0:
+        Dsign='-' # Symbol for negative CAIPI shift
+    else:
+        Dsign='' # Symbol for positive or zero CAIPI shift
+    label = r'$%d\cdot{%d \times %d}_{%sz%d}$' % (S, Ry, Rz, Dsign, np.abs(Dz))
 
-    return ax
+    return ax, label
