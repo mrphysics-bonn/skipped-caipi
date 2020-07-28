@@ -11,11 +11,17 @@ Rüdiger Stirnberg (1), Tony Stöcker (1,2)
 
 ## Note:
 
-**The provided notebooks and scripts are only capable of *visualizing* skipped-CAIPI sampling.**
+**The provided notebook and functions merely *visualize* skipped-CAIPI sampling.**
+
+**Together with the paper, they may be helpful to reproduce skipped-CAIPI sampling on your MRI scanner platform.**
 
 ## Jupyter notebook (index.ipynb)
 
-Run this jupyter notebook to visualize blipped-CAIPI, shot-selective or skipped-CAIPI sampling of any CAIPIRINHA pattern specified.
+Run this jupyter notebook to visualize blipped-CAIPI, shot-selective or skipped-CAIPI EPI sampling of any CAIPIRINHA pattern specified.
+
+**Don't have jupyterlab installed? Run the notebook online:**
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/master?filepath=index.ipynb)
 
 In one of the first cells, you can specify the CAIPI pattern parameters and a segmentation factor.
 
