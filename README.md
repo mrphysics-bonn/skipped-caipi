@@ -21,7 +21,7 @@ Run this jupyter notebook to visualize blipped-CAIPI, shot-selective or skipped-
 
 **Don't have jupyterlab/ jupyter notebook installed? Run it online:**
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/master?filepath=index.ipynb)
 
 In one of the first cells, you can specify the CAIPI pattern parameters and a segmentation factor.
 
