@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#-*- coding:utf-8 -*-
 
 """skippedcaipi.py: Helper functions for Supporting Jupyter Notebook (index.ipynb) for
 

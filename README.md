@@ -17,22 +17,24 @@ Rüdiger Stirnberg (1), Tony Stöcker (1,2)
 
 ## Jupyter notebook (index.ipynb)
 
-Run this jupyter notebook to visualize blipped-CAIPI, shot-selective or skipped-CAIPI EPI sampling of any CAIPIRINHA pattern specified.
+Run this jupyter notebook to visualize blipped-CAIPI, shot-selective or skipped-CAIPI EPI sampling of any CAIPIRINHA pattern.
 
 **Don't have jupyterlab/ jupyter notebook installed? Run it online:**
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/338eeef228515ea7216536ca30bfc3d16ed71aa6?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/master)
 
 In one of the first cells, you can specify the CAIPI pattern parameters and a segmentation factor.
 
-In the following cells, you will be presented plots and get informed about the z-blips and z-blip cycle of:
+In the following cells, you will be presented plots and get informed about the z-blips and z-blip cycles of:
 
 * the blipped-CAIPI trajectory associated to the CAIPI pattern
 * the skipped-CAIPI trajectory associated to the CAIPI pattern, given the specified segmentation factor
 
-alongside the corresponding Equations.
+according to the corresponding Equations (paper Appendix).
 
-In the last cell, all unique trajectories associated to specified CAIPI pattern are plotted, thus reproducing Supporting Information Figure S2.
+Finally, all unique trajectories associated to specified CAIPI pattern are plotted, thus reproducing Supporting Information Figure S2.
+
+The last cell recaps the relevant Equations of the paper Appendix.
 
 ## Helper functions (skippedcaipi.py)
 
