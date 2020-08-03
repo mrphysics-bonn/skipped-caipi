@@ -2,12 +2,14 @@
 
 ## Supporting Jupyter Notebook for "Segmented K-Space Blipped-Controlled Aliasing in Parallel Imaging (Skipped-CAIPI) for High Spatiotemporal Resolution Echo Planar Imaging"
 
-Provisionally accepted by Magnetic Resonance in Medicine, 2020
-
 Rüdiger Stirnberg (1), Tony Stöcker (1,2)
 
 1. German Center for Neurodegenerative Diseases (DZNE), Bonn, Germany
 2. Department of Physics and Astronomy, University of Bonn, Bonn, Germany
+
+Magnetic Resonance in Medicine, 2020 (Accepted, July 30)
+
+DOI: 10.1002/mrm.28486
 
 ## Note:
 
@@ -21,7 +23,7 @@ Run this jupyter notebook to visualize blipped-CAIPI, shot-selective or skipped-
 
 **Don't have jupyterlab/ jupyter notebook installed? Run it online:**
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/6d89929a79a3c43a0984a928a1537bea466e7ed4?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/skipped-caipi/master?filepath=index.ipynb)
 
 In one of the first cells, you can specify the CAIPI pattern parameters and a segmentation factor.
 
